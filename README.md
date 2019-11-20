@@ -16,3 +16,4 @@ Uses the default editor for OS, on OSX it's `VIM` on Ubuntu it's `nano` and it c
 to avod opening editor, use `git commit -m "<message>"`
 - Line should contain info that is concise and accurate, of what is being committed.
 - Try to use proper spelling, grammar and punctuation
+- Do not end with a `.`

@@ -7,6 +7,9 @@
 - git commit: Commit changes from staging area to current branch
 - git config: Sets or gets the git config.
 - git log: Shows history of project commits
+- git stash: Stashes changes rom working directory
+- git stash list: List stashes in working directory
+- git stash pop: Apply stashed changes to working directory
 
 ## Commit messags
 Uses the default editor for OS, on OSX it's `VIM` on Ubuntu it's `nano` and it can be changed.

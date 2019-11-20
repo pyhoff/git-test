@@ -7,6 +7,7 @@
 - git commit: Commit changes from staging area to current branch
 - git config: Sets or gets the git config.
 - git log: Shows history of project commits
+- git checkout: checkout a branch (update HEAD)
 - git branch -b: Create branch, and checks out to the new branch
 
 ## What is a branch?

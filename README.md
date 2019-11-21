@@ -22,3 +22,5 @@ to avod opening editor, use `git commit -m "<message>"`
 
 ## Merging
 Merging means to bring changes from one branches into another
+
+- A fast-forward merge happens when the target branch was branched  from current one, an the are no new changes to the current branch since then.

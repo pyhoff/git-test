@@ -24,3 +24,4 @@ to avod opening editor, use `git commit -m "<message>"`
 Merging means to bring changes from one branches into another
 
 - A fast-forward merge happens when the target branch was branched  from current one, an the are no new changes to the current branch since then.
+- An Automatic merge happens when the two histories have diverged, but git is able t reconcile then into one set of changes. This Creates a new commit on the current branch.

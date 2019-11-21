@@ -8,6 +8,7 @@
 - git config: Sets or gets the git config.
 - git log: Shows history of project commits
 - git checkout: Check out branch ( update HEAD and apply changes to working directory)
+- git merge: Merge changes from different branches.
 
 ## Commit messags
 Uses the default editor for OS, on OSX it's `VIM` on Ubuntu it's `nano` and it can be changed.

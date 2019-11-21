@@ -6,7 +6,7 @@
 - git add: adds changes from working directory to staging area
 - git commit: Commit changes from staging area to current branch
 - git config: Sets or gets the git config.
-- git log: Shows history of project commits
+- git log: Shows a history (aka log) of project commits
 - git checkout: Check out branch ( update HEAD and apply changes to working directory)
 - git merge: Merge changes from different branches.
 

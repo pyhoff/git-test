@@ -23,6 +23,9 @@
 - git merge --no-commit -no-ff: Attempt to mere , but do not create an auto merge off ff Merge
 - git branch --no-merged <branch1>: list branches that have unmerged commits
 - git branch --merged <branch1>: List branches that have n unmerged commits
+- git remote -v: List remot repositories
+- git push -u <remote> <branch>: push <branch> to r<remote>, and se default upstream for <branch>
+  
 
 ## What is a branch?
 A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we are "on" that branch. When a commit is performed on the branch, the is updated to ref(er) to th new commit.

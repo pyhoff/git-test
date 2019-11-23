@@ -25,8 +25,8 @@
 - git branch --merged <branch1>: List branches that have n unmerged commits
 - git remote -v: List remot repositories
 - git push -u <remote> <branch>: push <branch> to r<remote>, and se default upstream for <branch>
+- git fetch: Fetch cnages from remote repo
   
-
 ## What is a branch?
 A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we are "on" that branch. When a commit is performed on the branch, the is updated to ref(er) to th new commit.
 

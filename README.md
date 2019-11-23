@@ -13,6 +13,9 @@
 - git branch -c: Create a branch
 - git branch -b: Create branch, and checks out to the new branch
 - git merge: Merge changes from different branches.
+- git stash: Stashes changes rom working directory
+- git stash list: List stashes in working directory
+- git stash pop: Apply stashed changes to working directory
 
 ## What is a branch?
 A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we are "on" that branch. When a commit is performed on the branch, the is updated to ref(er) to th new commit.

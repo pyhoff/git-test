@@ -7,17 +7,17 @@
 - git commit: Commit changes from staging area to current branch
 - git config: Sets or gets the git config.
 - git log: Shows a history (aka log) of project commits
+- git show: Show a single commit
+- git diff: Show the difference between commits, the working directory and the staging area.
 - git checkout: Check out branch ( update HEAD and apply changes to working directory)
 - git branch -c: Create a branch
 - git branch -b: Create branch, and checks out to the new branch
 - git merge: Merge changes from different branches.
 
 ## What is a branch?
-
 A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we are "on" that branch. When a commit is performed on the branch, the is updated to ref(er) to th new commit.
 
 ## What is HEAD?
-
 Head is a ref(erenece) to the "current" branch (or sometimes a commit). Git commands such as `status`, `log` and `branch` use HEAD. `git checkout` updates the HEAD to ref(er) to a different branch.
 
 ## Commit messages

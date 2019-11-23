@@ -16,6 +16,13 @@
 - git stash: Stashes changes rom working directory
 - git stash list: List stashes in working directory
 - git stash pop: Apply stashed changes to working directory
+- git merge: Merge changes from a different branches
+- git merge --abort: Abort an in-progress Merge
+- git log  <branch1>..<branch2>: log of commits in branch2 that don't exist in branch1
+- git log <branch1>...<branch2>: Log of commits in either branch but not in both
+- git merge --n-commit -no-ff: Attempt to mere , but do not create an auto merge off ff Merge
+- git branch --no-merg <branch1>: list branches that have unmerged commits
+- git branch --merged <branch1>: List branches that have n unmerged commits
 
 ## What is a branch?
 A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we are "on" that branch. When a commit is performed on the branch, the is updated to ref(er) to th new commit.

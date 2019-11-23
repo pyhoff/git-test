@@ -23,9 +23,9 @@
 - git merge --no-commit -no-ff: Attempt to mere , but do not create an auto merge off ff Merge
 - git branch --no-merged <branch1>: list branches that have unmerged commits
 - git branch --merged <branch1>: List branches that have n unmerged commits
-- git remote -v: List remot repositories
+- git remote -v: List remote repositories
 - git push -u <remote> <branch>: push <branch> to r<remote>, and se default upstream for <branch>
-- git fetch: Fetch changes from remote repo
+- git fetch: Fetch changes from remote repository
 - git pull: Fetch, and then merge
 
 ## What is a branch?

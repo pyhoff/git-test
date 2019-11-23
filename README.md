@@ -20,8 +20,8 @@
 - git merge --abort: Abort an in-progress Merge
 - git log  <branch1>..<branch2>: log of commits in branch2 that don't exist in branch1
 - git log <branch1>...<branch2>: Log of commits in either branch but not in both
-- git merge --n-commit -no-ff: Attempt to mere , but do not create an auto merge off ff Merge
-- git branch --no-merg <branch1>: list branches that have unmerged commits
+- git merge --no-commit -no-ff: Attempt to mere , but do not create an auto merge off ff Merge
+- git branch --no-merged <branch1>: list branches that have unmerged commits
 - git branch --merged <branch1>: List branches that have n unmerged commits
 
 ## What is a branch?

@@ -25,7 +25,7 @@
 - git branch --merged <branch1>: List branches that have n unmerged commits
 - git remote -v: List remot repositories
 - git push -u <remote> <branch>: push <branch> to r<remote>, and se default upstream for <branch>
-- git fetch: Fetch cnages from remote repo
+- git fetch: Fetch changes from remote repo
 - git pull: Fetch, and then merge
 
 ## What is a branch?
@@ -52,4 +52,5 @@ Merging means to bring changes from one branches into another
 
 ## Whats a remote?
 A remote repository is one hosted somewhere other than our local machine. We can add remotes with `git remote add`, and setup *tracking branches* to track differences between our local and remote repositories.
+
 We push to remotes with `git push`, and fetch from remotes with `git fetch`. We can also fetch and merge as one command with `git pull`
